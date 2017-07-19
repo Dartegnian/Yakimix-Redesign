@@ -1,0 +1,216 @@
+body {
+	margin: 0;
+	margin-left:0px;
+}
+#header {
+	position: fixed;
+    width: 100%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px -2px 9px 0px #212121;
+}
+p {
+	margin: 0;
+}
+#headwrapper h1 {
+	font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+    margin: 0px auto;
+	line-height: 70px;
+}
+#headwrapper img {
+	width: 240px;
+	display: inline;
+	border-right: 4px solid #000;
+    padding-right: 20px;
+}
+.descriptionwrapper .description {
+    font-family: 'Segoe UI Semilight', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+	color: #630619;
+	margin: 0 auto;
+	padding-left: 15px;	
+	margin-top: 12px;
+}
+div#headwrapper {
+    width: 540px;
+    margin: 0 auto;
+	padding: 25px;
+	overflow: hidden;
+}
+.titlewrapper {
+    float: left;
+}
+.fullbackground h1 {
+	top: 48%;
+}
+.fullbackground {
+	background-color: red;
+	height: 400px;
+    padding: 20px;
+	text-align: center;
+	background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.9)), url(photos/header1.jpg) no-repeat center center fixed;
+    /*background: linear-gradient(rgba(176, 69, 90, 0.4), rgba(99, 6, 25, 0.9)), url(photos/header1.jpg) no-repeat center center fixed; */
+	background-size: cover;
+	padding: 40px;
+}
+.fullbackground:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		opacity: .8; 
+}
+#first {
+	height: 300px;
+}
+.plainbackground {
+	background-color: #fff;
+	padding: 40px;
+	text-align: center;	
+}
+.plainbackground h1, .fullbackground h1 {
+	color: #000;
+	font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+}
+.plainbackground h2, .vertcontain h2 {
+	color: #630619;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 23px;
+}
+#ramen h2 {
+	color: white;
+}
+h1 {
+	margin-top: 0px;
+}
+.plainbackground ul {
+	list-style:none;
+	display: inline-block;
+	padding: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+li {
+	display: inline-block;
+	padding: 0px 40px;
+	height: 400px;
+}
+.vertcontain li {
+	height: 310px;
+}
+.plainbackground button, .vertcontain button {
+    background-color: #630619;
+    border: 0;
+    padding: 10px;
+    color: white;
+    box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.vertcontain button {
+    background-color: white;
+    color: #9ba8a3;
+}
+#ramen button {
+    background-color: white;
+    color: #630619;
+    box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+#bibimbap button {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 1px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+#ramen {
+	background: #630619 url('photos/pattern2.png') repeat center top;
+    /* background-size: 40%; */
+    background-attachment: fixed;
+}
+.plainbackground h1 {
+	color: #630619;
+}
+#ramen h1, #bibimbap h1 {
+	color: white;
+}
+.plainbackground p, .fullbackground p {
+	width: 200px;
+    margin: 0 auto;
+    font-size: 13px;
+    font-family: Segoe UI Light;
+    color: #630619;
+	padding-top: 20px;
+}
+#ramen p, #bibimbap p {
+    color: #ececec;
+}
+#sushichoices li {
+	padding-bottom: 80px;
+}
+#vertical1 {
+	background: url(photos/back1.jpg) no-repeat center center scroll;
+	background-size: cover;
+}
+#promo {
+	background: url(photos/promo.jpg) no-repeat center center scroll;
+	background-size: cover;
+	height: 430px;
+}
+.verticalmenu {
+    overflow-x: scroll;
+    width: 800px;
+}
+#vertical1 h1 {
+	color: white;
+}
+.vertcontain {
+	width: 1900px;
+}
+.vertcontain ul {
+	margin-top: 19px;
+}
+#juan {
+    float: right;
+    overflow-y: hidden;
+}
+.vertcontain img {
+    width: 218px;
+}
+.vertcontain h2 {
+	color: white;
+}
+#bibimbap h2 {
+	color: white;
+}
+::-webkit-scrollbar {
+    width: 4px; height: 4px; background: white;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #630619; border-radius: 0px; -webkit-border-radius: 0px;
+}
+#bibimbap {
+	background: #000 url('photos/pattern3.png') repeat center top;
+    background-size: 33%;
+    background-attachment: fixed;
+}
+#bibimbap #logo {
+    width: 250px;
+}
+#bibimbap li {
+	padding: 0px 20px;
+}
+#footer {
+	background-color: #630619;
+    height: 30px;
+    padding: 20px;
+}
+#footer p {
+	padding-top: 5px;
+	color: white;
+	float: right;
+	width: 350px;
+}
