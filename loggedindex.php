@@ -8,7 +8,7 @@
 		<link href="files/style.css" rel="stylesheet">
 		<script>
 		function Redirect() {
-               window.location="index.html";
+               window.location="index.php";
         }
         function Redirect2() {
                window.location="mainpage.php";
@@ -36,7 +36,7 @@
 						echo "Demo User";
 					}
 					?>"
-				size="20" maxlength="50" style=" background-size: 30px; text-transform: capitalize; background-repeat: no-repeat;"></td>
+				size="20" maxlength="50" style="background-size: 30px;text-transform: capitalize;background-repeat: no-repeat;background-color: transparent;color: #630619;text-align: right;font-size: 17px;"></td>
 					</tr>
 					<tr style="display: inline;">
 					<td colspan="2" align="center">
