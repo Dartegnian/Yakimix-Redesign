@@ -6,6 +6,11 @@
 		<link rel="icon" type="image/png" href="files/photos/yakilogo.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="files/style.css" rel="stylesheet">
+		<script>
+			function Redirect() {
+               window.location="register.php";
+        	}
+		</script>
 	</head>
 	<body>
 		<div id="header">
@@ -227,7 +232,7 @@
 			</ul>
 		</div>
 		<div class="plainbackground" id="footer">
-			<p>Open Source License, 2017 | Dartegnian</p>
+			<p>&#169; 2017 Jordan Fernandez, Niles Kim Ayungao</p>
 		</div>
 	</body>
 </html>

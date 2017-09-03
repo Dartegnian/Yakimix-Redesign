@@ -55,6 +55,15 @@
 				</p>
 			</div>
 			</div>
+			<nav id="headnav">
+				<a id="current">Home Page</a>
+				<a href="sushi.php">Sushi</a>
+				<a href="sidedishes.php">Side Dishes</a>
+				<a href="ramen.php">Ramen</a>
+				<a href="bibimbap.php">Bibimbap</a>
+				<a href="contact.php">Contact</a>
+				<a href="about.php">About</a>
+			</nav>
 		</div>
 		<div class="fullbackground" id="first">
 		</div>
@@ -233,7 +242,7 @@
 			</ul>
 		</div>
 		<div class="plainbackground" id="footer">
-			<p>Open Source License, 2017 | Dartegnian</p>
+			<p>&#169; 2017 Jordan Fernandez, Niles Kim Ayungao</p>
 		</div>
 	</body>
 </html>
