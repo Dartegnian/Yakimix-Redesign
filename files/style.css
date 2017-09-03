@@ -3,6 +3,7 @@ body {
 	margin-left:0px;
 }
 #header {
+	z-index: 10;
 	position: fixed;
     width: 100%;
     text-align: center;
@@ -35,7 +36,6 @@ p {
 }
 div#headwrapper {
     width: 540px;
-    margin: 0 auto;
 	padding: 25px;
 	overflow: hidden;
 }
@@ -213,4 +213,13 @@ li {
 	color: white;
 	float: right;
 	width: 230px;
+}
+button.userbutt, input.button, input.inputfield {
+	background-color: #630619;
+    color: white;
+    padding: 7px;
+    border: 0;
+}
+td {
+	color: #630619;
 }
