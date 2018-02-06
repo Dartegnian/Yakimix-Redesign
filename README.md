@@ -8,5 +8,5 @@
 No copyright infringement intended. Not used for commercial purposes. For educational purposes only.
 
 <p align="center">
-	<a href="https://dartegnian.github.io/Jordan-Yakimix/index.html" target='_blank'>LIVE DEMO</a>
+	<a href="https://dartegnian.github.io/Yakimix-Redesign/index.html" target='_blank'>LIVE DEMO</a>
 </p>
