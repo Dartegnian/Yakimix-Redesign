@@ -49,53 +49,63 @@
 				<a href="index.php">Home Page</a>
 				<a href="sushi.php">Sushi</a>
 				<a href="sidedishes.php">Side Dishes</a>
-				<a id="current">Ramen</a>
-				<a href="bibimbap.php">Bibimbap</a>
+				<a href="ramen.php">Ramen</a>
+				<a id="current">Bibimbap</a>
 				<a href="contact.php">Contact</a>
 				<a href="about.php">About</a>
 			</nav>
 		</div>
 		<div class="fullbackground" id="first">
 		</div>
-		<div class="plainbackground" id="ramen">
-			<h1>RAMEN BOWLS</h1>
+		<div class="plainbackground" id="bibimbap">
+			<h1>BIBIMBAP BOWLS</h1>
 			<ul>
-				<li><img id="logo" src="files\photos\Bushi-Tonkotsu-Ramen-218x155.png"/>
-					<h2>Bushi Ramen</h2>
+				<li><img id="logo" src="files\photos\bibimbowl-creamy-curry-beef.png"/>
+					<h2>Cream Curry Beef</h2>
 					<button>Add for ₱190</button>
-					<p>Our best meal. Premium taste for less. Medium-rare beef shoulders shopped thinly and coated with garlic, salt, and seasonings to deliver an exquisite delight to your senses.</p>
+					<p>Ever tasted original Korean bibimbap with a sweet creamy texture and a rich taste of beef? Now you can! Try our new cream curry beef.</p>
 				</li>
 				<li>
-					<img id="logo" src="files\photos\Garlic-Ramen_small1-218x155.png"/>
-					<h2>Garlic Ramen</h2>
+					<img id="logo" src="files\photos\bibimbowl-creamy-curry-chicken.png"/>
+					<h2>Cream Curry Chicken</h2>
 					<button>Add for ₱350</button>
-					<p>2 full eggs compliments the garlic-coated pork belly in this dish. With meat cooked so close to perfection, we can gurantee that this bowl will make you craving for more.</p>
+					<p>2 full eggs compliments the garlic-coated pork belly in this dish. With meat cooked so close to perfection, we can guarantee that this bowl will make you craving for more.</p>
 				</li>
 				<li>
-					<img id="logo" src="files\photos\Tonkotsu-Ramen1-218x155.png"/>
-					<h2>Tonkotsu Ramen</h2>
+					<img id="logo" src="files\photos\Spicy-Bibimbowl-chicken-top.png"/>
+					<h2>Spicy Chicken</h2>
 					<button>Add for ₱155</button>
-					<p>Not too much meat? Watching your health and diet? On the more green side? We've got you covered. Our Tonkotsu Ramen bowl only contains freshly-cut vegetables.</p>
+					<p>Are you looking for thrill in your life? Want to live outside the lines? Ready for some action? Unleash the daredevil in you and try our spicy bibimbap chicken.</p>
+				</li>
+				<li><img id="logo" src="files\photos\Spicy-Bibimbowl-beef-top.png"/>
+					<h2>Spicy Beef</h2>
+					<button>Add for ₱190</button>
+					<p>Beef got you down? Taste too bland? Want some spice? Are you waiting for that burst of flavor? We're sure you can't handle this. One bite alone will leave you running.</p>
 				</li>
 			</ul>
 			<ul>
-				<li><img id="logo" src="files\photos\Uma-Uma-Ramen1-218x155.png"/>
-					<h2>Shin Ramyun Ramen</h2>
-					<button>Add for ₱190</button>
-					<p>Filled with our best Shin Ramyun, this ramen add-on is for those who are getting into Japanese food and want to taste the best authentic experience any restaurant can offer.</p>
+				<li>
+					<img id="logo" src="files\photos\Spicy-Bibimbowl-beef-boxed-meal.png"/>
+					<h2>Spicy Beef Set</h2>
+					<button>Add for ₱225</button>
+					<p>Want some spicy beef with a little more.. flavor? This set offers a wide range of senses that we're sure to definitely leave you craving for more.</p>
 				</li>
 				<li>
-					<img id="logo" src="files\photos\Spicy-Chasiu-Ramen1-218x155.png"/>
-					<h2>Blazit Ramen</h2>
-					<button>Add for ₱420</button>
-					<p>This bowl is for those looking to add a lot of heat into their lives. The Blazit Ramen bowl is not for the faint of heart. Rumors say, no one has entirely finished it.</p>
+					<img id="logo" src="files\photos\Seafood-Bibimbowl-Meal.png"/>
+					<h2>Seafood Set</h2>
+					<button>Add for ₱120</button>
+					<p>Fresh from the sea-that's what this bowl is. Featuring the freshest seafood you can ever find on the deep blue sea, with tasteful seaweed to bring you back to the ocean.</p>
+				</li>
+				<li>
+					<img id="logo" src="files\photos\Taco-Bibimbowl-Meal.png"/>
+					<h2>Taco Set</h2>
+					<button>Add for ₱310</button>
+					<p>Want the chili con carne found in Mexican food? Missing the spice of Jalapeño peppers? We've got you covered. We've blended the perfect mix of Korean and Mexican dishes.</p>
 				</li>
 			</ul>
-		</div>
-		<div class="fullbackground" id="promo">
 		</div>
 		<div class="plainbackground" id="footer">
-			<p>&#169; 2017 Jordan Fernandez, Niles Kim Ayungao</p>
+			<p>&#169; 2017 Dartegnian Velarde</p>
 		</div>
 	</body>
 </html>

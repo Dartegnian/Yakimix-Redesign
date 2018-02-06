@@ -48,20 +48,53 @@
 			<nav id="headnav">
 				<a href="index.php">Home Page</a>
 				<a href="sushi.php">Sushi</a>
-				<a href="sidedishes.php">Side Dishes</a>
+				<a id="current">Side Dishes</a>
 				<a href="ramen.php">Ramen</a>
 				<a href="bibimbap.php">Bibimbap</a>
-				<a id="current">Contact</a>
+				<a href="contact.php">Contact</a>
 				<a href="about.php">About</a>
 			</nav>
 		</div>
 		<div class="fullbackground" id="first">
 		</div>
-		<div class="plainbackground" id="sushichoices">
-			<h1>CONTACT US</h1>
-			<h3 style="color: white; font-size: 5px; margin: 2px; padding: 0px;"><a style="color: white; font-size: 5px; margin: 2px; padding: 0px; text-decoration: none;" href="mailto:nkayungao@student.apc.edu.ph" target="_top">nkayungao@student.apc.edu.ph</a></h3>
-			<h3 ><a style="color: black;" href="mailto:jmfernandez2@student.apc.edu.ph" target="_top">jmfernandez2@student.apc.edu.ph</a></h3>
-			<h3 ><a style="color: black;" href="mailto:nkayungao@student.apc.edu.ph" target="_top">nkayungao@student.apc.edu.ph</a></h3>
+		<div class="fullbackground" id="vertical1">
+			<h1>SIDE DISHES</h1>
+			<div class="verticalmenu" id="juan">
+				<div class="vertcontain">
+					<ul>
+						<li>
+							<img id="logo" src="files\photos\potato-salad1-218x155.png"/>
+							<h2>Potato Salad</h2>
+							<button>Add for ₱50</button>
+						</li>
+						<li>
+							<img id="logo" src="files\photos\Spicy-tuna-don_JH.png"/>
+							<h2>Spicy Tuna Don</h2>
+							<button>Add for ₱70</button>
+						</li>
+						<li>
+							<img id="logo" src="files\photos\chasiu-rice2-218x155.png"/>
+							<h2>Mini Chaisu Don</h2>
+							<button>Add for ₱240</button>
+						</li>
+						<li>
+							<img id="logo" src="files\photos\Mentai-Dashi-Maki.png"/>
+							<h2>Mantai Dashi Maki</h2>
+							<button>Add for ₱110</button>
+						</li>
+						<li>
+							<img id="logo" src="files\photos\Dashi-Maki-Tamago-218x155.png"/>
+							<h2>Dashi Maki Tamago</h2>
+							<button>Add for ₱900</button>
+						</li>
+						<li>
+							<img id="logo" src="files\photos\gyoza-218x155.png"/>
+							<h2>Gyoza</h2>
+							<button>Add for ₱160</button>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 		<div class="plainbackground" id="footer">
 			<p>&#169; 2017 Dartegnian Velarde</p>

@@ -49,24 +49,53 @@
 				<a href="index.php">Home Page</a>
 				<a href="sushi.php">Sushi</a>
 				<a href="sidedishes.php">Side Dishes</a>
-				<a href="ramen.php">Ramen</a>
+				<a id="current">Ramen</a>
 				<a href="bibimbap.php">Bibimbap</a>
 				<a href="contact.php">Contact</a>
-				<a id="current">About</a>
+				<a href="about.php">About</a>
 			</nav>
 		</div>
 		<div class="fullbackground" id="first">
 		</div>
-		<div class="plainbackground" id="sushichoices">
-			<h1>ABOUT US</h1>
-			<h3 style="color: white; font-size: 5px; margin: 2px; padding: 0px;"><a style="color: white; font-size: 5px; margin: 2px; padding: 0px; text-decoration: none;" href="mailto:nkayungao@student.apc.edu.ph" target="_top">nkayungao@student.apc.edu.ph</a></h3>
-			<img id="logo" style="width: 500px; padding-bottom: 20px;" src="files\photos\yakimixlogo.png"/>
-			<p style="width: 400px; font-size: 15px; color: black; font-weight: 600">Yakimix is an eat-all-you-can sushi and smokeless grill restaurant that offers Japanese, Korean, and Chinese cuisine. It is owned by the same company who runs Buffet 101. Its first branch, built in 2009, is located at Macapagal Ave., Pasay City. Currently, there are 13 Yakimix branches you can visit nationwide.
-
-This project is made by Jordan Fernandez and Niles Ayungao to be presented in our WebProg class.We are currently studying in Asia Pacific College</p>
+		<div class="plainbackground" id="ramen">
+			<h1>RAMEN BOWLS</h1>
+			<ul>
+				<li><img id="logo" src="files\photos\Bushi-Tonkotsu-Ramen-218x155.png"/>
+					<h2>Bushi Ramen</h2>
+					<button>Add for ₱190</button>
+					<p>Our best meal. Premium taste for less. Medium-rare beef shoulders shopped thinly and coated with garlic, salt, and seasonings to deliver an exquisite delight to your senses.</p>
+				</li>
+				<li>
+					<img id="logo" src="files\photos\Garlic-Ramen_small1-218x155.png"/>
+					<h2>Garlic Ramen</h2>
+					<button>Add for ₱350</button>
+					<p>2 full eggs compliments the garlic-coated pork belly in this dish. With meat cooked so close to perfection, we can gurantee that this bowl will make you craving for more.</p>
+				</li>
+				<li>
+					<img id="logo" src="files\photos\Tonkotsu-Ramen1-218x155.png"/>
+					<h2>Tonkotsu Ramen</h2>
+					<button>Add for ₱155</button>
+					<p>Not too much meat? Watching your health and diet? On the more green side? We've got you covered. Our Tonkotsu Ramen bowl only contains freshly-cut vegetables.</p>
+				</li>
+			</ul>
+			<ul>
+				<li><img id="logo" src="files\photos\Uma-Uma-Ramen1-218x155.png"/>
+					<h2>Shin Ramyun Ramen</h2>
+					<button>Add for ₱190</button>
+					<p>Filled with our best Shin Ramyun, this ramen add-on is for those who are getting into Japanese food and want to taste the best authentic experience any restaurant can offer.</p>
+				</li>
+				<li>
+					<img id="logo" src="files\photos\Spicy-Chasiu-Ramen1-218x155.png"/>
+					<h2>Blazit Ramen</h2>
+					<button>Add for ₱420</button>
+					<p>This bowl is for those looking to add a lot of heat into their lives. The Blazit Ramen bowl is not for the faint of heart. Rumors say, no one has entirely finished it.</p>
+				</li>
+			</ul>
+		</div>
+		<div class="fullbackground" id="promo">
 		</div>
 		<div class="plainbackground" id="footer">
-			<p>&#169; 2017 Jordan Fernandez, Niles Kim Ayungao</p>
+			<p>&#169; 2017 Dartegnian Velarde</p>
 		</div>
 	</body>
 </html>

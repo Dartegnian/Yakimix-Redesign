@@ -242,7 +242,7 @@
 			</ul>
 		</div>
 		<div class="plainbackground" id="footer">
-			<p>&#169; 2017 Jordan Fernandez, Niles Kim Ayungao</p>
+			<p>&#169; 2017 Dartegnian Velarde</p>
 		</div>
 	</body>
 </html>
